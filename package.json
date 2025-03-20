@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nodemon app.ts",
     "build": "tsc",                   
-    "start": "node dist/app.js",   
+    "start": "node src/dist/app.js",   
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "prisma:studio": "prisma studio",
